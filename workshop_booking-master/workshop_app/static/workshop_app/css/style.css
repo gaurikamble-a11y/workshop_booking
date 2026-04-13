@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f1ea;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #8B5E3C;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* BUTTON */
+.navbar button {
+  background: #fff;
+  color: #8B5E3C;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: 100px auto 40px;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: #5a3e2b;
+}
+
+/* BUTTON */
+button {
+  background: #8B5E3C;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #e6dccf;
+  margin-top: 40px;
+}

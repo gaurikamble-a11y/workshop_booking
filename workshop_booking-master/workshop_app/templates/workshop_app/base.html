@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workshop Portal</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f4efe9;
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #8B5E3C, #a47148);
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar button {
+  background: white;
+  color: #8B5E3C;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #5a3e2b;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #7a5c45;
+}
+
+
+.main-btn {
+  margin-top: 20px;
+  background: #8B5E3C;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h3 {
+  color: #5a3e2b;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #e6dccf;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="navbar">
+    <h2>Workshop Portal</h2>
+    <button>Login</button>
+</div>
+
+
+<div class="hero">
+    <h1>Learn New Skills with Workshops</h1>
+    <p>Join hands-on sessions and improve your knowledge.</p>
+    <button class="main-btn">Browse Workshops</button>
+</div>
+
+
+<div class="grid">
+
+    <div class="card">
+        <h3>Python Workshop</h3>
+        <p>Start your coding journey with Python basics.</p>
+    </div>
+
+    <div class="card">
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, and build real projects.</p>
+    </div>
+
+    <div class="card">
+        <h3>Data Science</h3>
+        <p>Understand data and build smart solutions.</p>
+    </div>
+
+</div>
+
+
+<div class="footer">
+    Developed by FOSSEE group, IIT Bombay
+</div>
+
+</body>
+</html>
