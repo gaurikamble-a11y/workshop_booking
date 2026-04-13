@@ -5,20 +5,29 @@
 
 # UI/UX Enhancement - Workshop Portal
 
-## Overview
-The original website had a very basic interface and felt quite plain to use. My aim was to improve the overall look and make it more user-friendly while keeping the existing structure unchanged.
+## Approach
 
-## Design Improvements
-I tried improving the layout by introducing  simple card based structure to improve readability. I also introduced a consistent light brown theme to make the interface look cleaner. The navigation bar was simplified to make it easier to understand and use.
+Instead of completely rebuilding the application using React, I focused on improving the existing frontend using Django templates. This allowed me to work faster while still making noticeable UI/UX improvements.
+
+My main goal was to make the interface cleaner and easier to use without affecting the existing functionality.
+
+## Design Principles
+
+While working on the UI, I mainly focused on keeping things simple and readable. I tried to improve the overall layout so that users can easily understand the content without confusion.
+
+I also paid attention to spacing and alignment to make the interface look more structured.
 
 ## Responsiveness
-I kept the layout simple so that it works reasonably well on smaller screens. Spacing and alignment were adjusted to improve readability.
+
+I kept mobile users in mind while making changes. I increased spacing, adjusted text readability, and tried to keep the layout simple so it works better on smaller screens.
 
 ## Trade-offs
-Instead of using additional frameworks, I focused on basic CSS styling to keep the design lightweight and fast.
+
+Due to time constraints, I decided not to shift the entire project to React. Instead, I focused on improving the UI within the existing structure so that the changes remain efficient and practical.
 
 ## Challenges
-One challenge was improving the UI without modifying backend functionality. I mainly focused on improving the frontend layout and styling without changing existing logic.
+
+One of the main challenges was making UI improvements without changing the backend logic. I had to carefully update only the frontend parts while making sure everything continued to work properly.
 
 ## Screenshots
 
@@ -28,3 +37,10 @@ One challenge was improving the UI without modifying backend functionality. I ma
 
 ### After UI
 ![After](./after.png)
+## Setup Instructions
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Run the server:
+python manage.py runserver
