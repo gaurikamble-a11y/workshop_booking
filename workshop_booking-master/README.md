@@ -24,7 +24,7 @@ One challenge was improving the UI without modifying backend functionality. I ma
 
 
 ### Before UI
-![Before](workshop_booking-master/before.png)
+![Before](./before.png)
 
 ### After UI
-![After](workshop_booking-master/after.png)
+![After](./after.png)
